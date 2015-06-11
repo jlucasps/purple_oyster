@@ -1,3 +1,9 @@
-# 1 - Write a bash script that shows the username of all users present in the system
-echo "scenario-001:"
-cat /etc/passwd | awk -F ":" '{ print $1}'
+#!/bin/bas
+
+# 1 - Write a bash script the outputs to STDOUT each user and its respective home folder separated by comma.
+#   The output should be in the following pattern, not considering the hash (#) and spaces in the beginning of each line:
+
+#   root,/root
+#   daemon,/usr/sbin
+#   bin,/bin
+#   sys,/bin
