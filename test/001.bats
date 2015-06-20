@@ -34,6 +34,6 @@ gabriel,/users/gabriel
 maria,/home/maria
 claudia,/people/claudia
 bibiana,/home/bibiana"
-
+  diff <(echo "$code_output") <(echo "$expected")
   [ "$code_output" = "$expected" ]
 }
