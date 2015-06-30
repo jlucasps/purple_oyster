@@ -1,6 +1,7 @@
 
 @test "should output users and home foldes separated by comma" {
-  local code_output=$(/bin/bash /vagrant/answers/001.sh)
+  local answer_number=$(grep -Eo '[0-9]*' <<< ${BATS_TEST_FILENAME})
+  local code_output=$(/bin/bash /vagrant/answers/${answer_number}.sh)
   local expected="root,/root
 daemon,/usr/sbin
 bin,/bin

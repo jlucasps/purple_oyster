@@ -8,4 +8,6 @@ if [[ -z "$(which bats)" ]]; then
   sudo ./install.sh /usr/local
 fi
 
-bash -x /vagrant/scenarios/001.sh
+bash /vagrant/scenarios/001.sh
+bash /vagrant/scenarios/002.sh
+bash -x /vagrant/scenarios/003.sh
