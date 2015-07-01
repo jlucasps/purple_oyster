@@ -1,13 +1,11 @@
-
-
 ============
-yster
+Purple Oyster
 ============
 
-##### What is this project?
+#### What is this project?
 I don't know yet.
 
-##### How is it structure?
+#### How is it structure?
 Each file under ````answers/```` contains a challenge that you have to solve.
 
 The file ````scenarios/001.sh```` will setup the environment so you can write your code in the file ````answers/001.sh````, and it will be test by ````test/001.bats````.
@@ -30,7 +28,7 @@ The file ````scenarios/001.sh```` will setup the environment so you can write yo
     └── all.sh          # Run all tests in loop (don't touch)
 </pre>
 
-##### How to use this project? 
+#### How to use this project? 
 
 The first step to run this project is clone the git repo. 
 
@@ -66,39 +64,3 @@ It will block the screen executing all test files at every 2 seconds. Type ````c
  - Now open you favorite text editor and add some code in the file ````answers/001.sh````to see the test results change.
 
  - Keep adding code in the folder ````answers/```` to solve the challenges untill all test are passing.
-
-
-### What is this project?
-
-### How is it strutured?
-
-### How to use this project? 
-
-
-* Clone the repo:
-````git clone git@github.com:gustavo-freitas/purple_oyster.git````
-
-
-* Navigate to project folder
-
-````cd purple_oyster````
-
-
-* Run the vagrant machine
-
-````vagrant up````
-
-It will need some time to boot the machine and execute the setup of environment
-
-
-* SSH into vagrant box
-
-````vagrant ssh````
-
-
-* Run the test script
-
-````bash /vagrant/test/all.sh````
-
-It will block the screen executing all test files every 2 seconds. Type ````ctrl+c```` to quit the test loop.
-
