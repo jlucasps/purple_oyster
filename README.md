@@ -5,13 +5,13 @@ Purple Oyster
 #### What is this project?
 I don't know yet.
 
-#### How is it structure?
+#### How is it structured?
 Each file under ````answers/```` contains a challenge that you have to solve.
 
 The file ````scenarios/001.sh```` will setup the environment so you can write your code in the file ````answers/001.sh````, and it will be test by ````test/001.bats````.
 
 <pre>
-├── Vagrantfile         # Vagrant file  
+├── Vagrantfile         # Vagrant file
 ├── bootstrap.sh        # Shell script to provision the machine
 ├── answers
 │   ├── 001.sh          #
@@ -25,12 +25,12 @@ The file ````scenarios/001.sh```` will setup the environment so you can write yo
     ├── 001.bats        #
     ├── 002.bats        # Automated test to verify your answers (don't touch)
     ├── 003.bats        #
-    └── all.sh          # Run all tests in loop (don't touch)
+    └── all.sh          # Run all tests in a loop (don't touch)
 </pre>
 
-#### How to use this project? 
+#### How to use this project?
 
-The first step to run this project is clone the git repo. 
+The first step to run this project is clone the git repo.
 
  - Copy the git URL and type in the console
 ````sh
@@ -61,6 +61,6 @@ vagrant@vagrant-ubuntu-trusty-64:~$ bash /vagrant/test/all.sh
 ````
 It will block the screen executing all test files at every 2 seconds. Type ````ctrl+c```` to quit the test loop.
 
- - Now open you favorite text editor and add some code in the file ````answers/001.sh````to see the test results change.
+ - Now open you favorite text editor and add some code in the file ````answers/001.sh````to see the test results changing.
 
  - Keep adding code in the folder ````answers/```` to solve the challenges untill all test are passing.
