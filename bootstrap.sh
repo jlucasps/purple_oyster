@@ -1,5 +1,6 @@
 apt-get update
-apt-get install -y git bash vim curl tree unzip
+apt-get install -y git bash vim curl tree unzip ruby-dev g++
+sudo gem install daemons -v '1.2.3'
 
 if [[ -z "$(which bats)" ]]; then
   wget -q https://github.com/sstephenson/bats/archive/master.zip
