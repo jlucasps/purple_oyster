@@ -22,8 +22,9 @@ touch faro.rb
 echo -e "#!/usr/bin/env ruby\n\nputs 'timmmm'" > xen.file
 chmod +x xen.file
 
+mkdir -p splitter
+mkdir -p black
 
 echo -e "#!/usr/bin/env ruby'" > webex.exe
 
-mkdir -p splitter
-mkdir -p black
+mkdir -p zulu
